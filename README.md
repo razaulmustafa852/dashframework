@@ -34,12 +34,9 @@ Here, intExpID is a unique experiment we performed, (type, column, case) type pr
 
 Finally, per-segment RTT, throughput and packets for 60 segments are as rtt_qos, tp_qos and p_qos respectively
 
-For more information of godash logs see below figure 
+##### For more information of godash logs see below figure 
 
 ![](https://github.com/razaulmustafa852/dashframework/blob/master/images/godash_logsinfo.png)
-
-
-
 
 License
 ----
