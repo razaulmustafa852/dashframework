@@ -22,7 +22,7 @@ Please note, in 5G_TC_Cases.csv there are 10 combinations for real 5G Cases acro
 The dataset file has 30 columns, these are 
 intExpID,	type,	column,	case,	total_users,	user_no,	intSeg,	intArr,	intDel,	intSta,	intRep,	intDelRate,	intActRate,	intByteSize,	floatBuf,	algorithm_used,	seg_Dur,	width,	height,	resolutions,	play_Pos,	RTT,	Clae,	Duanmu,	Yin,	Yu,	P1203,	rtt_qos,	tp_qos,	p_qos
 
-Here, intExpID is a unique experiment we performed, (type, column, case) type presents as experiment is ---Mobility or ---Static, (column and case) as the 5G case selection from 5G_TC_Cases.csv.
+   - Here, intExpID is a unique experiment we performed, (type, column, case) type presents as experiment is ---Mobility or ---Static, (column and case) as the 5G case selection from 5G_TC_Cases.csv.
   - total_users, user_no as total user competing for video stream, and user_no as the logs for corresponding user.
   - intSeg as segment number, as in our case we streamed 60 segments of 2s each, intArr as Arrival Time, intDel as Delivery of the segment.
   - intSta as stall or freeze for that segment number, intRep as Representation selected for the segment, intDelRate as delivery rate of network
@@ -34,9 +34,10 @@ Here, intExpID is a unique experiment we performed, (type, column, case) type pr
 
 Finally, per-segment RTT, throughput and packets for 60 segments are as rtt_qos, tp_qos and p_qos respectively
 
-##### For more information of godash logs see below figure 
+#### For more information of godash logs see below figure 
 
 ![](https://github.com/razaulmustafa852/dashframework/blob/master/images/godash_logsinfo.png)
+
 
 License
 ----
