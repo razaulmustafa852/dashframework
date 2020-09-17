@@ -23,14 +23,14 @@ The dataset file has 30 columns, these are
 intExpID,	type,	column,	case,	total_users,	user_no,	intSeg,	intArr,	intDel,	intSta,	intRep,	intDelRate,	intActRate,	intByteSize,	floatBuf,	algorithm_used,	seg_Dur,	width,	height,	resolutions,	play_Pos,	RTT,	Clae,	Duanmu,	Yin,	Yu,	P1203,	rtt_qos,	tp_qos,	p_qos
 
 Here, intExpID is a unique experiment we performed, (type, column, case) type presents as experiment is ---Mobility or ---Static, (column and case) as the 5G case selection from 5G_TC_Cases.csv.
---- total_users, user_no as total user competing for video stream, and user_no as the logs for corresponding user.
---- intSeg as segment number, as in our case we streamed 60 segments of 2s each, intArr as Arrival Time, intDel as Delivery of the segment.
---- intSta as stall or freeze for that segment number, intRep as Representation selected for the segment, intDelRate as delivery rate of network
---- intActRate defined as actual rate in Kbps, intByteSize as byte size of this segment
---- floatBuf as buffer level in ms , algorithm_used such as (Conventional, Elastic, Arbiter +, BBA, Logistic, Exponential), seg_Dur as segment duration in ms
---- width, height as Representation width and height in pixels, resolutions as width x height such as 320x180
---- play_Pos as Current Play Back position, RTT as Packet level (ms), determined using HTTP head request
---- Clae, Dunamu, Yin, Yu and P.1203 five quality of experience models
+  - total_users, user_no as total user competing for video stream, and user_no as the logs for corresponding user.
+  - intSeg as segment number, as in our case we streamed 60 segments of 2s each, intArr as Arrival Time, intDel as Delivery of the segment.
+  - intSta as stall or freeze for that segment number, intRep as Representation selected for the segment, intDelRate as delivery rate of network
+  - intActRate defined as actual rate in Kbps, intByteSize as byte size of this segment
+  - floatBuf as buffer level in ms , algorithm_used such as (Conventional, Elastic, Arbiter +, BBA, Logistic, Exponential), seg_Dur as segment duration in ms
+  - width, height as Representation width and height in pixels, resolutions as width x height such as 320x180
+  - play_Pos as Current Play Back position, RTT as Packet level (ms), determined using HTTP head request
+  - Clae, Dunamu, Yin, Yu and P.1203 five quality of experience models
 
 Finally, per-segment RTT, throughput and packets for 60 segments are as rtt_qos, tp_qos and p_qos respectively
 
